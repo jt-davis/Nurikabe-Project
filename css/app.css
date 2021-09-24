@@ -1,0 +1,40 @@
+table,
+td {
+	border: 1px solid black;
+}
+
+table {
+	empty-cells: show;
+}
+
+td {
+	height: 50px;
+	width: 50px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 50px 50px 50px 50px 50px;
+	grid-template-rows: 50px 50px 50px 50px 50px;
+	justify-content: center;
+	align-content: center;
+	padding: 20px;
+}
+
+.grid-item {
+	background-color: cornflowerblue;
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	padding: 9px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.selected {
+	background-color: black;
+}
+
+.dot {
+	background-color: orange;
+}
