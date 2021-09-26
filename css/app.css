@@ -36,5 +36,6 @@ td {
 }
 
 .dot {
-	background-color: orange;
+	background-image: url("/img/outline_close_black_24dp.png");
+	background-color: cornflowerblue;
 }
